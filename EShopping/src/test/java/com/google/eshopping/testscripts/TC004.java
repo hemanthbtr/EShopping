@@ -27,7 +27,7 @@ public class TC004 extends BaseTest {
 		
 		orderDetailsPage.deleteProduct(productId);
 		
-		ProjectUtility.sleepInSeconds(10);
+		ProjectUtility.sleepInSeconds(5);
 		
 		Assert.assertEquals(orderDetailsPage.isProductDisplayed(productId), false);
 	}
