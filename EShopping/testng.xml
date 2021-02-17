@@ -5,19 +5,6 @@
   <test thread-count="5" name="ChromeTest">
     <classes>
       <class name="com.google.eshopping.testscripts.TC001"/>
-      <class name="com.google.eshopping.testscripts.TC004"/>
-     <!--  <class name="com.google.eshopping.testscripts.TC003"/> -->
-    </classes>
-  </test> <!-- Test -->
-  
-  <test thread-count="5" name="FirefoxTest">
-    <parameter name="username" value="nameishemanth190@gmail.com"></parameter>
-    <parameter name="browserName" value="firefox"></parameter>
-    <parameter name="implicit" value="25"></parameter>
-    <parameter name="explicit" value="25"></parameter>
-    <classes>
-      <class name="com.google.eshopping.testscripts.TC001"/>
-      <class name="com.google.eshopping.testscripts.TC004"/>
      <!--  <class name="com.google.eshopping.testscripts.TC003"/> -->
     </classes>
   </test> <!-- Test -->
