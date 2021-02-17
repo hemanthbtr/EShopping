@@ -5,7 +5,6 @@
   <test thread-count="5" name="ChromeTest">
     <classes>
       <class name="com.google.eshopping.testscripts.TC001"/>
-     <!--  <class name="com.google.eshopping.testscripts.TC003"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
