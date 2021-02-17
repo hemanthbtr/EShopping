@@ -22,6 +22,6 @@ public class TC001 extends BaseTest {
 		ProductsListPage productsListPage = homePage.clickOnMenu(menuName);
 		ProductDetailsPage prductDetailsPage = productsListPage.clickOnProduct(productId);
 		OrderDetailsPage orderDetailsPage = prductDetailsPage.addItemToCart(quantityToIncrease, quantityToDecrease, sizeText, colorName);
-		Assert.assertEquals(orderDetailsPage.isProductDisplayed(productId), true);
+		Assert.assertEquals(orderDetailsPage.isProductDisplayed(productId), false);
 	}
 }
